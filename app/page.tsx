@@ -23,9 +23,9 @@ const photos = [
 
 const socialLinks = [
   { icon: Home, label: "Home", href: "#" }, 
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com/bimahabib" }, 
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/bimahabib" }, 
-  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/6281234567890" },  
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/bimahabib98" }, 
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/bimahabibnugraha" }, 
+  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/6289530324308" },  
 ];
 
 export default function HomePage() {
@@ -148,7 +148,7 @@ export default function HomePage() {
           ))}
           <div className="w-[1px] h-6 bg-white/10 mx-2"></div>
           <Link 
-            href="mailto:emailmu@gmail.com"
+            href="mailto:bimahabibnugraha@gmail.com"
             className="p-2 rounded-full bg-white text-black hover:opacity-80 transition-opacity"
           >
              <ExternalLink className="w-5 h-5" />
