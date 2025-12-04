@@ -133,31 +133,26 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* DOCK MENU (Versi Lebih Kecil / Compact) */}
+      {/* DOCK MENU (Versi Compact) */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-fit px-4">
-        {/* Perubahan: px-6 py-3 menjadi px-4 py-2 (Lebih tipis) */}
         <div className="flex items-center justify-center gap-1 px-4 py-2 bg-neutral-900/80 backdrop-blur-xl border border-white/10 rounded-full shadow-2xl">
           {socialLinks.map((link, i) => (
             <Link 
               key={i} 
               href={link.href} 
               target={link.label === "Home" ? "_self" : "_blank"}
-              // Perubahan: hover:scale-110 jadi 105 (supaya tidak terlalu heboh saat di-hover)
               className="p-2 rounded-full hover:bg-white/10 transition-all text-neutral-400 hover:text-white hover:scale-105"
             >
-              {/* Perubahan: w-6 h-6 menjadi w-5 h-5 (Ikon lebih imut) */}
               <link.icon className="w-5 h-5" />
             </Link>
           ))}
           
-          {/* Perubahan: Divider diperpendek (h-6 jadi h-4) dan margin dikurangi */}
           <div className="w-[1px] h-4 bg-white/10 mx-1"></div>
           
           <Link 
-            href="mailto:emailmu@gmail.com"
+            href="mailto:bimahabibnugraha@gmail.com"
             className="p-2 rounded-full bg-white text-black hover:opacity-80 transition-opacity"
           >
-             {/* Icon ExternalLink juga diperkecil */}
              <ExternalLink className="w-4 h-4" />
           </Link>
         </div>
