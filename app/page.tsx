@@ -23,9 +23,9 @@ const photos = [
 
 const socialLinks = [
   { icon: Home, label: "Home", href: "#" }, 
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com/bimahabib" }, 
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/bimahabib" }, 
-  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/6281234567890" },  
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/bimahabib98" }, 
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/bimahabibnugraha" }, 
+  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/6289530324308" },  
 ];
 
 export default function HomePage() {
@@ -48,10 +48,10 @@ export default function HomePage() {
         </div>
 
         <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight leading-tight text-white">
-          Bima <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Habib</span>
+          Bima <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">Habib Nugraha</span>
         </h1>
         <p className="text-neutral-400 text-lg md:text-xl max-w-xl leading-relaxed">
-          Visual Storyteller & Content Creator. Spesialis dalam videografi sinematik dan fotografi komersial.
+          Photographer & Content Creator. Spesialis dalam fotografi dan konten kreatif.
         </p>
       </motion.div>
 
@@ -150,7 +150,7 @@ export default function HomePage() {
           <div className="w-[1px] h-4 bg-white/10 mx-1"></div>
           
           <Link 
-            href="mailto:emailmu@gmail.com"
+            href="mailto:bimahabibnugraha@gmail.com"
             className="p-2 rounded-full bg-white text-black hover:opacity-80 transition-opacity"
           >
              <ExternalLink className="w-4 h-4" />
