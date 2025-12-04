@@ -5,7 +5,7 @@ import { Home, Instagram, Linkedin, MessageCircle, ExternalLink } from "lucide-r
 import Link from "next/link";
 
 // --- KONFIGURASI ---
-const BASE_PATH = "/porto"; // Sesuaikan nama repo
+const BASE_PATH = "/porto"; // Ganti dengan "/nama-repo" jika perlu
 
 // Data Video Youtube
 const videos = [
@@ -23,9 +23,9 @@ const photos = [
 
 const socialLinks = [
   { icon: Home, label: "Home", href: "#" }, 
-  { icon: Instagram, label: "Instagram", href: "https://instagram.com/bimahabib98" }, 
-  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/bimahabibnugraha" }, 
-  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/6289530324308" },  
+  { icon: Instagram, label: "Instagram", href: "https://instagram.com/bimahabib" }, 
+  { icon: Linkedin, label: "LinkedIn", href: "https://linkedin.com/in/bimahabib" }, 
+  { icon: MessageCircle, label: "WhatsApp", href: "https://wa.me/6281234567890" },  
 ];
 
 export default function HomePage() {
@@ -133,7 +133,7 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* DOCK MENU (Versi Compact) */}
+      {/* DOCK MENU (Compact Version) */}
       <div className="fixed bottom-6 left-1/2 -translate-x-1/2 z-50 w-full max-w-fit px-4">
         <div className="flex items-center justify-center gap-1 px-4 py-2 bg-neutral-900/80 backdrop-blur-xl border border-white/10 rounded-full shadow-2xl">
           {socialLinks.map((link, i) => (
@@ -150,10 +150,14 @@ export default function HomePage() {
           <div className="w-[1px] h-4 bg-white/10 mx-1"></div>
           
           <Link 
-            href="mailto:bimahabibnugraha@gmail.com"
+            href="mailto:emailmu@gmail.com"
             className="p-2 rounded-full bg-white text-black hover:opacity-80 transition-opacity"
           >
              <ExternalLink className="w-4 h-4" />
           </Link>
         </div>
       </div>
+
+    </main>
+  );
+}
